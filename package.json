@@ -1,0 +1,12 @@
+{
+  "name": "back-push",
+  "author": "Sigmentium",
+  "version": "1.0.0",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node Main.js"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}
