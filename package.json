@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "Main.js",
   "scripts": {
-    "start": "node Main.js"
+    "start": "node Main.js",
+    "genkey": "node gen.js"
   },
   "dependencies": {
     "web-push": "^3.6.7"
