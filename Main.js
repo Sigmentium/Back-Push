@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
         });
 
         req.on('end', () => {
-            Data.push(body);
+            Data.push(JSON.parse(body));
 
             res.writeHead(200, {'Content-Type':'application/json'});
             res.end(JSON.stringify({ successful: true }));
