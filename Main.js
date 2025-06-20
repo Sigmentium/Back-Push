@@ -16,7 +16,7 @@ webpush.setVapidDetails(
     keys.private
 );
 
-function infoNotification() {
+async function infoNotification() {
     const notification = JSON.stringify({
         title: 'Твой авторитет снова упал!',
         body: 'Твой авторитет уже ниже плинтуса.\nА мы напоминаем, что у нас в Sigmentium ты можешь не только поднять авторитет, но и приумножить его 😉'
