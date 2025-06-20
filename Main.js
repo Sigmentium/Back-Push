@@ -54,17 +54,10 @@ const server = http.createServer((req, res) => {
         });
         return;
     }
-
-    // if (req.method === 'POST' && req.url === '/api/warnNotification') {
-    //     const notification = JSON.stringify({
-    //         title: 'Вход на новом устройстве',
-    //         body: 'Был осуществлён вход на новом устройстве.\nЕсли это были не вы, то скорее зайдите:\nНастройки - общее - сеансы. Далее выберите устройство которое вам незнакомо, и нажмите "Завершить сеанс"'
-    //     });
-    // }
 });
 
 server.listen(port, '0.0.0.0', () => {
     console.log('> Successful start');
 });
 
-setInterval(infoNotification, 60000);
+setInterval(infoNotification, 259200000);
