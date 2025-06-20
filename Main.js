@@ -28,7 +28,7 @@ async function infoNotification() {
 }
 
 const server = http.createServer((req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', 'sigmentium.github.io');
+    res.setHeader('Access-Control-Allow-Origin', 'https://sigmentium.github.io');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
